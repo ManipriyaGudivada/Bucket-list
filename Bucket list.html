@@ -1,0 +1,134 @@
+HTML:
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bucket List</title>
+  
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:brown;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.bucket-list {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bucket-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bucket-list li {
+    margin-bottom: 20px;
+}
+
+.bucket-list img {
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.bucket-list h3 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+@media only screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    .bucket-list {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .bucket-list img {
+        height: 100px;
+    }
+    .bucket-list h3 {
+        font-size: 16px;
+    }
+}
+</style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <marquee behavior="scrool" direction="left" >
+    </marquee>
+    <header>
+        <h1><marquee behavior="scrool" direction="left" >
+       My Personal Bucket List</marquee></h1>
+    </header>
+    <main>
+        <section class="bucket-list">
+            <h2>Places  I love to Visit</h2>
+            <ul>
+                <li>
+                    <h3>Ram Mandir,Ayodhya</h3>
+                    <img src="C:\Users\DELL\Downloads\Ram mandir.webp" alt="Ayodhya" width="300" height="200">
+                    <p>Explore the Ram Mandir in Ayodhya.</p>
+                </li>
+                <li>
+                    <h3>Araku Valley,Vishakhapatnam</h3>
+                    <img src="C:\Users\DELL\Downloads\Araku valley.webp" alt="Vishakhapatnam" width="300" height="200">
+                    <p>Visit Araku Valley and Tribal Museum.</p>
+                </li>
+                <li>
+                    <h3>Lalbagh Botanical Garden,Banglore</h3>
+                    <img src="C:\Users\DELL\Downloads\Lalbagh botanical garden.webp" alt="Banglore" width="300" height="200">
+                    <p>Experience the Garden view.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="bucket-list">
+            <h2>Things to Do</h2>
+            <ul>
+                <li>
+                    <h3>A symbol of faith and cultural Heritage</h3>
+                    <img src="C:\Users\DELL\Downloads\Ram lala.avif" width="300" height="200">
+                    <p>Exploring the history of temple.</p>
+                </li>
+                <li>
+                    <h3>Valley in the Eastern Ghats known for its Coffe Plantation</h3>
+                    <img src="C:\Users\DELL\Downloads\Araku.jpg" width="300" height="200"> 
+                    <p> Chill by seeing and capturing photos of the Clouds passing by hills in Araku.</p>
+                </li>
+                <li>
+                    <h3>One of the largest Botanical Gardens in Inida</h3>
+                    <img src="C:\Users\DELL\Downloads\Rose garden.avif" width="300" height="200">
+                    <p> Basking in the beauty of the majestic trees and vibrant flowers.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Bucket List</p>
+    </footer>
+</body>
+</html>
+
